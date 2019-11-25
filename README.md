@@ -60,3 +60,6 @@ Implementing multi-resolution components on top of the core methodology of
 Chapter 3 and the adapted MCMC approach of Chapter 4.
 
 ## Chapter 6: Application to Flow Cytometry
+Applies the methods discussed and shown in Chapters 3, 4, and 5 to the 
+rituximab and GvHD positive and control flow cyotometry samples. A comparison
+to the methods of Lo et al. is also included.
