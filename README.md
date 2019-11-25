@@ -35,6 +35,14 @@ Produces plots of `r flowClust` clustering on the Rituximab and GvHD Control
 cytometry datasets.
 
 ## Chapter 3: Bernoulli Random Variables
+Introduces the Generalised Binomial distribution with functions to compute PDF,
+CDF, quantiles and random samples. Generates plots which display:
+- properties of the Generalised Binomial Distribution;
+- statistical properties of the distribution for given sized structures;
+- compare analytical and simulation results;
+
+*Note:* the code in this file will take considerable time to run since the
+simulations are considerably large.
 
 ## Chapter 4: Adapted MCMC
 
