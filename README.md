@@ -23,9 +23,16 @@ devtools::install_bioc('flowClust', type = 'binary')
 lapply(c(pkgs, 'flowClust'), library, character.only = TRUE)
 ```
 
+Additionally, to remove scientific notation of the numeric display values run:
+```r
+options(scipen = 9999)
+```
+
 ## Chapter 1: Introduction
 
 ## Chapter 2: Flow Cytometry
+Produces plots of `r flowClust` clustering on the Rituximab and GvHD Control 
+cytometry datasets.
 
 ## Chapter 3: Bernoulli Random Variables
 

@@ -1,7 +1,7 @@
 ####------------------------------ Cytometry -------------------------------####
 
   # Load all files in functions directory
-  sapply(list.files(path = 'functions/', full.names = TRUE), source)
+  sapply(list.files(path = 'functions', full.names = TRUE), source)
 
   # Load the Rituximab and GvHD Control Data
   rit <- read.csv(file = 'data/rituximab/rituximab.csv')
