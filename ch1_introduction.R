@@ -37,6 +37,7 @@
   abline(v = seq(from = 200, by = 1, to = 220), col = "gray", lty = 1)
   
   # Plot 5: Multi-Resolution Analysis Probability Map
+  hier.rit <- gating(rit[, c("FSC.H", "SSC.H")], temp = 4, min.res = 64)
   plot.mrf_gating(hier.rit, main = "(e) Chapter 5: Probability Map",
   				  xlab = "FSC (Height)", ylab = "SSC (Height)", cex = 0)
 

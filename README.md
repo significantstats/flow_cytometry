@@ -29,9 +29,16 @@ options(scipen = 9999)
 ```
 
 ## Chapter 1: Introduction
+Produces a plot which displays:
+1. Rituximab data;
+2. Subjective Manual Gating;
+3. FlowClust Gating;
+4. Lattice Structure of data;
+5. Probability Map using Multi-Resolution Analysis;
+6. Clusters using Multi-Resolution Analysis.
 
 ## Chapter 2: Flow Cytometry
-Produces plots of `r flowClust` clustering on the Rituximab and GvHD Control 
+Produces plots of `flowClust` clustering on the Rituximab and GvHD Control 
 cytometry datasets.
 
 ## Chapter 3: Bernoulli Random Variables
