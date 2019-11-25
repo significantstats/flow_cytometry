@@ -52,6 +52,8 @@ CDF, quantiles and random samples. Generates plots which display:
 simulations are considerably large.
 
 ## Chapter 4: Adapted MCMC
+Using MCMC methods, and the methodology derived in Chapter 3 to clean and
+segment two image files.
 
 ## Chapter 5: Hierarchical Approach
 
