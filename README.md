@@ -56,5 +56,7 @@ Using MCMC methods, and the methodology derived in Chapter 3 to clean and
 segment two image files.
 
 ## Chapter 5: Hierarchical Approach
+Implementing multi-resolution components on top of the core methodology of 
+Chapter 3 and the adapted MCMC approach of Chapter 4.
 
 ## Chapter 6: Application to Flow Cytometry
