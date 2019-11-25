@@ -6,14 +6,21 @@ need to be installed. The code below will install, where needed, and load all
 of the required packages.
 
 ```r
+# Install CRAN packages
 pkgs <- c('ggplot2', 'grid', 'reshape', 'scales', 'bmp',
-          'RColorBrewer', 'SDMTools', 'stargazer', 'flowClust',
+          'RColorBrewer', 'SDMTools', 'stargazer', 'devtools',
           'rpart', 'rattle', 'rpart.plot')
 pkgs_not_installed <- pkgs[!(pkgs %in% installed.packages())]
 for (pkg in pkgs_not_installed) {
-  install.packages(pkg, dependencies = TRUE, character.only = TRUE)
+  install.packages(pkg, dependencies = TRUE, 
+                   character.only = TRUE, type = 'binary')
 }
-library(pkgs, character.only = TRUE)
+
+# Install FlowClust
+devtools::install_bioc('flowClust', type = 'binary')
+
+# Load all packages
+lapply(c(pkgs, 'flowClust'), library, character.only = TRUE)
 ```
 
 ## Chapter 1: Introduction
